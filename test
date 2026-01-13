@@ -1,0 +1,8 @@
+assets/
+  img/
+    target.png
+    crosshair.png
+    bg.png
+  sfx/
+    hit.mp3
+    miss.mp3
