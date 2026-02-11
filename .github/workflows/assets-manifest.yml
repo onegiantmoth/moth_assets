@@ -1,0 +1,24 @@
+name: Generate assets manifest
+on:
+  push:
+    paths:
+      - "assets/**"
+      - "tools/**"
+      - "package.json"
+jobs:
+  gen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm run gen:assets
+      - run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add assets.manifest.json
+          git diff --cached --quiet || git commit -m "chore: update assets manifest"
+          git push

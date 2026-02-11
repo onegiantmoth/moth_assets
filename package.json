@@ -1,0 +1,7 @@
+{
+  "name": "moth_assets",
+  "private": true,
+  "scripts": {
+    "gen:assets": "node tools/generate-manifest.mjs"
+  }
+}

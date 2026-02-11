@@ -1,0 +1,13 @@
+{
+  "base": "https://cdn.jsdelivr.net/gh/onegiantmoth/moth_assets@main/",
+  "files": {
+    "img": {
+      "crosshair": "https://cdn.jsdelivr.net/gh/onegiantmoth/moth_assets@main/assets/img/crosshair.png",
+      "target": "https://cdn.jsdelivr.net/gh/onegiantmoth/moth_assets@main/assets/img/target.png"
+    }
+  },
+  "flat": {
+    "img/crosshair": "https://cdn.jsdelivr.net/gh/onegiantmoth/moth_assets@main/assets/img/crosshair.png",
+    "img/target": "https://cdn.jsdelivr.net/gh/onegiantmoth/moth_assets@main/assets/img/target.png"
+  }
+}
