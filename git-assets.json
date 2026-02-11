@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "repo": "onegiantmoth/moth_assets",
+  "ref": "main",
+  "baseUrls": {
+    "jsdelivr": "https://cdn.jsdelivr.net/gh/onegiantmoth/moth_assets@main",
+    "raw": "https://raw.githubusercontent.com/onegiantmoth/moth_assets/main"
+  },
+  "assets": {
+    "images": {
+      "target": {
+        "path": "assets/img/target.png",
+        "type": "image/png",
+        "url": "https://cdn.jsdelivr.net/gh/onegiantmoth/moth_assets@main/assets/img/target.png",
+        "fallbackUrl": "https://raw.githubusercontent.com/onegiantmoth/moth_assets/main/assets/img/target.png"
+      },
+      "crosshair": {
+        "path": "assets/img/crosshair.png",
+        "type": "image/png",
+        "url": "https://cdn.jsdelivr.net/gh/onegiantmoth/moth_assets@main/assets/img/crosshair.png",
+        "fallbackUrl": "https://raw.githubusercontent.com/onegiantmoth/moth_assets/main/assets/img/crosshair.png"
+      }
+    },
+    "audio": {},
+    "svg": {},
+    "cssChunks": {}
+  }
+}
